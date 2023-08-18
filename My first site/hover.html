@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .fade-in {
+            animation-name: fade-in-animation;
+            animation-duration: 10s
+        }
+
+        @keyframes fade-in-animation {
+            from {
+                opacity: 0;
+                height: 100px;
+                transform: rotate(280deg);
+
+                to {
+                    opacity: 1;
+                    height: 300px;
+                    transform: rotate(0deg);
+                }
+            }
+        }
+
+        .blink-colour {
+            animation-name: blink-colour-animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes blink-colour-animation {
+            0% {
+                color: rgb(189, 52, 52);
+            }
+
+            40% {
+                color: yellow;
+            }
+
+            80% {
+                color: greenyellow;
+            }
+
+            100% {
+                color: orange;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <img src="images/squirtle.jpg" alt="squirtle" height="300px" class="fade-in">
+        <div class="dropdown-content">
+            Squirtle
+
+        </div>
+    </div>
+    <div>
+        <h1 class="blink-colour">I am coming</h1>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+p,
+li {
+    color: blue;
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#blue-p {
+    color: blue;
+}
+
+#navbar {
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar th {
+    border-style: solid;
+    border: solid #804400;
+    padding: 5px;
+    position: sticky;
+    top: 0px;
+}
+
+.stats {
+    color: rgb(90, 128, 0);
+}
+
+h1 {
+    color: blueviolet;
+    border: solid;
+    border-width: 2px;
+    border-left: 5px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../images/background1.jpg);
+}
